@@ -1,0 +1,14 @@
+:root {
+ --my-hue :200
+}
+
+h1 {
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid hsl(var(--my-hue), 80%, 80%);
+  color: hsl(var(--my-hue), 80%, 50%);
+}
+
+p {
+  color: #333333;
+}
